@@ -1,0 +1,88 @@
+.app-div {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.app-div,
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #9a031e;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form label,
+.form input,
+.form button {
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form input {
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  border-bottom: solid 2px #9a031e;
+  color: #2e0109;
+}
+.form input:focus {
+  background-color: #cd818f;
+  outline: none;
+}
+
+.form button {
+  width: 25%;
+  margin: 0 auto;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #9a031e;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+}
+
+ul {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+  /* display: flex;
+  justify-content: flex-start; */
+}
+
+.list-item-div {
+  width: 80%;
+  /* margin: 0 auto; */
+  background-color: #ebcdd2;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.list-item-remove-button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.list-item-remove-button:hover {
+  color: #ae354b;
+}
